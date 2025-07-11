@@ -8,8 +8,9 @@ const Footer = () => {
             <footer className="footer_ background_gardian">
                 {/*  */}
                 <div className="row p-4">
-                    <div className="col-12 col-md-4">
-                        <img src={logo} alt="logo" className="img img-fluid p-5" />
+                    <div className="col-12 col-md-3">
+                        <h2>Aariwork</h2>
+                        <p>Preserving traditional embroidery while bringing it to contemporary fashion</p>
                         <div>
                             <Link className="p-2 text_custom_gold">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" className="bi bi-facebook" viewBox="0 0 16 16">
@@ -28,28 +29,80 @@ const Footer = () => {
                             </Link>
                         </div>
                     </div>
-                    <div className="col-12 col-md-4">
-                        <h4 className="popins text_custom_gold">Contact Us</h4>
-                        <p className="popins text_custom_cream">Email : suchiyesware123@gmail.com</p>
-                        <address className="popins text_custom_cream">
-                            Address: Mala Builders, 4/423, Veera Anjaneyar Koil St, Sevanthi Nagar, Kirubanandavariyar Nagar, Mumbai 400030
-                        </address>
-                        <p className="popins text_custom_cream">
-                            Working hours: <span>Monday - Saturday : 9.00 am - 7.00 pm</span>
-                        </p>
+                    <div className="col-12 col-md-3">
+                        <h2>Quick Link</h2>
+                        <ul className="list list-unstyled">
+                            <li>
+                                <a href="" className="nav-link">Home</a>
+                            </li>
+                            <li>
+                                <a href="" className="nav-link">About Us</a>
+                            </li>
+                            <li>
+                                <a href="" className="nav-link">Courses</a>
+                            </li>
+                            <li>
+                                <a href="" className="nav-link">Products</a>
+                            </li>
+                            <li>
+                                <a href="" className="nav-link">Contact</a>
+                            </li>
+                        </ul>
                     </div>
-                    <div className="col-12 col-md-4">
-                        <h4 className="popins text_custom_gold">Get a Free Quote</h4>
-                        <p className="text_custom_cream"><span className="popins text_custom_cream">Call :</span> 7350075828</p>
-                        <p className="popins text_custom_cream">Get in touch to get a free quote or</p>
-                        <button type="button" className="btn btn-sm text-uppercase btn-light rounded-lg popins">Request a quate now</button>
+                    <div className="col-12 col-md-3">
+                        <h2>Courses</h2>
+                        <ul className="list list-unstyled">
+                            <li>
+                                <a href="" className="nav-link">Home</a>
+                            </li>
+                            <li>
+                                <a href="" className="nav-link">About Us</a>
+                            </li>
+                            <li>
+                                <a href="" className="nav-link">Courses</a>
+                            </li>
+                            <li>
+                                <a href="" className="nav-link">Products</a>
+                            </li>
+                            <li>
+                                <a href="" className="nav-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="col-12 col-md-3">
+                        <h2>Newsletter</h2>
+                        <p>Subscribe to get updates on new courses and products</p>
+                        <div>
+                            <div className="col-md-12">
+                                <div className="input-group has-validation">
+                                <input type="email" className="form-control rounded-end-0" id="validationCustomUsername" aria-describedby="inputGroupPrepend" placeholder="Your Email" required />
+                                <button type="button" class="input-group-text" id="inputGroupPrepend">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send-fill" viewBox="0 0 16 16">
+                                    <path d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 3.178 4.995.002.002.26.41a.5.5 0 0 0 .886-.083zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471z"/>
+                                    </svg>
+                                </button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div className="row">
-                    <div className="col-12 text-center">
-                        <div className="p-2">
-                            <p className="m-0 text_custom_gold">@ 2025 Unnati Designs - <Link className="text-decoration-none text_custom_secondary">Marketing by SEO With @macprogramming</Link></p>
-                        </div>
+                <hr />
+                <div className="row py-3">
+                    <div className="col-6 d-flex align-items-center">
+                        <p className="m-0">@ 2025 Aariwork. All right reserved</p>
+                    </div>
+                    <div className="col-6">
+                        <ul className="nav float-end">
+                            <li className="nav-item">
+                                <a href="" className="nav-link">Privacy Policy</a>
+                            </li>
+                            <li className="nav-item">
+                                <a href="" className="nav-link">Terms of Service</a>
+                            </li>
+                            <li className="nav-item">
+                                <a href="" className="nav-link">Shipping Policy</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </footer>

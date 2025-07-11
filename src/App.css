@@ -24,6 +24,11 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+body{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 .popins {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
@@ -72,10 +77,10 @@ body{
   outline: none;
 }
 .btn_custom_secondary:hover{
-  border: 1px solid var(--secondary-color);
+  border: 1px solid var(--primary-color);
   outline: none;
   background-color: none;
-  color: #fff;
+  color: var(--primary-color)!important;
 }
 
 /* Text color */
@@ -91,7 +96,15 @@ body{
 .text_custom_cream{
   color: var(--color-cream);
 }
-
+.bg_custom_primary {
+  background-color: var(--primary-color);
+}
+.bg_custom_secondary {
+  background-color: var(--secondary-color);
+}
+.bg_custom_creamy {
+  background-color: var(--color-cream);
+}
 /* 
 a {
   font-weight: 500;
@@ -147,3 +160,6 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } 
+.rounded-20{
+  border-radius: 20px !important;
+}

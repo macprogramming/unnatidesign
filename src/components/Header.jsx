@@ -19,17 +19,20 @@ const Header = () => {
                                     <Link className="nav-link active" target="#home" aria-current="page">Home</Link>
                                 </li>
                                 <li className="nav-item px-md-3">
-                                    {/* <Link className="nav-link active" href="#about" aria-current="page">About</Link> */}
                                     <a class="nav-link" href="#about">About</a>
                                 </li>
                                 <li className="nav-item px-md-3">
-                                    <Link className="nav-link active" aria-current="page" to='/aariclass'>Aari Class</Link>
+                                    {/* <Link className="nav-link" aria-current="page" to='#Styles'>Styles</Link> */}
+                                    <a class="nav-link" href="#Styles">Styles</a>
                                 </li>
                                 <li className="nav-item px-md-3">
-                                    <Link className="nav-link active" aria-current="page" to='/ourwork'>Our Work</Link>
+                                    <Link className="nav-link" aria-current="page" to='#Classes'>Classes</Link>
                                 </li>
                                 <li className="nav-item px-md-3">
-                                    <Link className="nav-link active" aria-current="page" to='/contact'>Contact Us</Link>
+                                    <Link className="nav-link active" aria-current="page" to='#Products'>Products</Link>
+                                </li>
+                                <li className="nav-item px-md-3">
+                                    <Link className="nav-link active" aria-current="page" to='#contact'>Contact</Link>
                                 </li>
                             </ul>
                         </div>

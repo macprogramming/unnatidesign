@@ -72,3 +72,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## 04-07-2025
 -- Added backend code
+
+## 11-07-2025
+-- Design new components
